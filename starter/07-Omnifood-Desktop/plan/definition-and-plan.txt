@@ -13,4 +13,13 @@
     plan site map: single page.
     pick site personality: startup/upbeat + peaceful.
 
-
+    page sections:
+        logo + navigation
+        hero
+        featured publications
+        how it works
+        diets + meals
+        gallery + testimonials
+        pricing plans + feature rows
+        call to action
+        contact and links
