@@ -1,10 +1,16 @@
-who this site for?
-    it is for a food provider.
+1. definition:
+    who this site for?
+        it is for a food provider.
 
-what this site for?
-    selling a monthly food subscription
+    what this site for?
+        selling a monthly food subscription
 
-target audience:
-    busy people looking to eat healthy.
+    target audience:
+        busy people looking to eat healthy.
+
+2.planning:
+    gather content: already provided.
+    plan site map: single page.
+    pick site personality: startup/upbeat + peaceful.
 
 
