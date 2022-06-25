@@ -17,7 +17,7 @@ default: 1
 
 ----02 colors:
     primary: #e67e22
-    tints:
+    tints: #fdf2e9
     shades:
     accents:
     greys: #555
@@ -49,6 +49,10 @@ body {
   font-weight: 400;
   font-size: 2rem;
   color: #555;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
 }
 
 .hero {
