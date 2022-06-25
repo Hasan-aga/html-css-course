@@ -79,6 +79,27 @@ body {
   margin-bottom: 6.4rem;
 }
 
+.button:link,
+.button:visited {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+}
+
+.button--full:link,
+.button--full:visited {
+  background-color: #e67e22;
+  color: #f7f7f7;
+}
+
+.button--outline:link,
+.button--outline:visited {
+  color: #555;
+  background-color: #fff;
+}
+
 .hero-image {
   width: 100%;
 }
