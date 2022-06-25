@@ -21,6 +21,7 @@ default: 1
     shades:
     accents:
     greys: #555
+            #333
 
 ----- 03 shadows
 
@@ -55,6 +56,20 @@ body {
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
   margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 6.4rem;
 }
 
 .hero-image {
