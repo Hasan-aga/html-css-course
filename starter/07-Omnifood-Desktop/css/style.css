@@ -49,3 +49,12 @@ body {
   font-size: 2rem;
   color: #555;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-image {
+  max-width: 40rem;
+}
