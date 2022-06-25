@@ -121,9 +121,16 @@ header {
   list-style: none;
 }
 
-.main-navigation-link {
+.main-navigation-link:link,
+.main-navigation-link:visited {
   text-decoration: none;
   color: #333;
+  transition: all 500ms;
+}
+
+.main-navigation-link:hover,
+.main-navigation-link:active {
+  color: #cf711f;
 }
 
 /* ********************** */
