@@ -7,22 +7,28 @@ FONT SIZE SYSTEM (px)
 
 
 Font weight:
-
+default: 400
 
 Line height:
 default: 1
 
 
- SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-c----02 colors:
+
+----02 colors:
     primary: #e67e22
     tints:
     shades:
     accents:
     greys: #555
 
+----- 03 shadows
+
+----- 04 border-radius
+
+-----05 whitespace
+ SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
 
@@ -30,6 +36,10 @@ c----02 colors:
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
