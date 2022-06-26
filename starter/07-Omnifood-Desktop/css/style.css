@@ -269,7 +269,6 @@ header {
 }
 
 .diets {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.09);
   border-radius: 12px;
   padding: 2rem;
   padding-top: 1rem;
@@ -282,7 +281,7 @@ header {
   row-gap: 2rem;
   align-items: center;
   justify-items: start;
-  padding-left: 2rem;
+  padding-top: 2rem;
 }
 
 .list-diets ion-icon {
