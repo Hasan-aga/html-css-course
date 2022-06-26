@@ -106,7 +106,7 @@ body {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
-  transition: background-color 500ms;
+  transition: all 500ms;
 }
 
 .button--full:link,
