@@ -126,6 +126,17 @@ header {
   margin-bottom: 1.2rem;
 }
 
+.step-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
 .step-image {
-  width: 50%;
+  width: 35%;
 }
