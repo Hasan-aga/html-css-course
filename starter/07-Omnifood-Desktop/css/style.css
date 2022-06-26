@@ -212,6 +212,11 @@ header {
   overflow: hidden;
 }
 
+.meal-text {
+  margin-left: 1.8rem;
+  margin-bottom: 2rem;
+}
+
 .meal-name {
   font-size: 2rem;
   font-weight: 600;
