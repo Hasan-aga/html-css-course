@@ -8,9 +8,13 @@ FONT SIZE SYSTEM (px)
 
 Font weight:
 default: 400
-
+    medium 500
+    semi-bold 600
+    bold 700
+    
 Line height:
 default: 1
+1.5
 
 
 
@@ -26,7 +30,7 @@ default: 1
 ----- 03 shadows
 
 ----- 04 border-radius
-
+        9px
 -----05 whitespace
  SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -117,12 +121,14 @@ header {
 
 .main-navigation-list {
   display: flex;
-  gap: 1rem;
+  gap: 4.8rem;
   list-style: none;
 }
 
 .main-navigation-link:link,
 .main-navigation-link:visited {
+  font-weight: 600;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #333;
   transition: all 500ms;
@@ -133,6 +139,18 @@ header {
   color: #cf711f;
 }
 
+.main-navigation-link.main-navigation-link-cta:link,
+.main-navigation-link.main-navigation-link-cta:visited {
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.main-navigation-link.main-navigation-link-cta:hover,
+.main-navigation-link.main-navigation-link-cta:active {
+  background-color: #cf711f;
+}
 /* ********************** */
 /* HERO */
 /* ********************** */
