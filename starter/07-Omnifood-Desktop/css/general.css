@@ -159,3 +159,7 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
+strong {
+  font-weight: 600;
+}
