@@ -109,6 +109,11 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.centered-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 /* ********************** */
 /* HEADER */
 /* ********************** */
@@ -170,11 +175,10 @@ header {
 
 .hero {
   display: grid;
+  max-width: 130rem;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
-  max-width: 130rem;
-  margin: 0 auto;
   padding: 0 3.2rem;
 }
 
@@ -221,3 +225,7 @@ header {
 .margin-right-small {
   margin-right: 1.6rem !important;
 }
+
+/* ********************** */
+/* SECTION HOW */
+/* ********************** */
