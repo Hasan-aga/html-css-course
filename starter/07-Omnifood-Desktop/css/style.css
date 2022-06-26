@@ -101,6 +101,14 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
 /* ********************** */
 /* HEADER */
 /* ********************** */
