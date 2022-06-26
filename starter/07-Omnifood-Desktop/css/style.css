@@ -213,15 +213,28 @@ header {
 }
 
 .meal-text {
-  margin-left: 2.4rem;
-  margin-bottom: 3.4rem;
+  padding: 4.8rem;
+  padding-top: 3.4rem;
+}
+
+.tag {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #e67e22;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
 }
 
 .meal-name {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #333;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2.4rem;
 }
 
 .meal-attribute-list {
@@ -236,20 +249,6 @@ header {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-left: 2rem;
-}
-
-.tag {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 1.1px;
-  color: #fff;
-  font-size: 1.4rem;
-  background-color: #e67e22;
-  padding: 0.5rem 1rem;
-  border-radius: 3rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .meal-icon {
