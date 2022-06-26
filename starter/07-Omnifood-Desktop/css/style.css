@@ -192,8 +192,8 @@ header {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 4.8rem 9.6rem 0 0;
-  margin-bottom: 9.6rem;
+  padding-top: 4.8rem;
+  padding-bottom: 9.6rem;
 }
 
 .hero {
@@ -252,6 +252,10 @@ header {
 /* ********************** */
 /* SECTION HOW */
 /* ********************** */
+
+.section-how {
+  background-color: #fdf2e9;
+}
 
 .step-image {
   width: 50%;
