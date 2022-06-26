@@ -259,6 +259,13 @@ header {
   background-color: #fdf2e9;
 }
 
+.step-number {
+  color: #ccc;
+  font-size: 6.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
 .step-image {
   width: 50%;
 }
