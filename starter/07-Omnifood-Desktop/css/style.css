@@ -267,3 +267,26 @@ header {
   width: 2.4rem;
   height: 2.4rem;
 }
+
+.diets {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.09);
+  border-radius: 12px;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+.list-diets {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1rem;
+  row-gap: 2rem;
+  align-items: center;
+  justify-items: start;
+  padding-left: 2rem;
+}
+
+.list-diets ion-icon {
+  color: #e67e22;
+  width: 2.4rem;
+  height: 2.4rem;
+}
