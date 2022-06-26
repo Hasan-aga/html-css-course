@@ -220,10 +220,6 @@ header {
   gap: 1rem;
 }
 
-.meal-attribute {
-  font-size: 1.8rem;
-}
-
 .tag {
   display: inline-block;
   color: #fff;
@@ -233,4 +229,17 @@ header {
   border-radius: 3rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.meal-icon {
+  color: #e67e22;
+  width: 2.4rem;
+  height: 2.4rem;
 }
