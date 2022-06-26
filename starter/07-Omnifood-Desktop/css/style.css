@@ -116,7 +116,7 @@ header {
 /* ********************** */
 
 .section-featured {
-  padding: 4.4rem 0 6.4rem 0;
+  padding: 4.4rem 0;
   margin-bottom: 3.8rem;
 }
 
@@ -142,6 +142,10 @@ header {
 /* ********************** */
 /* SECTION HOW */
 /* ********************** */
+
+.section-how {
+  padding: 9.6rem 0;
+}
 
 .step-number {
   color: #ccc;
@@ -188,4 +192,12 @@ header {
 
 .step-image {
   width: 35%;
+}
+
+/* ********************** */
+/* SECTION MEALS */
+/* ********************** */
+
+.section-how {
+  padding: 9.6rem 0;
 }
