@@ -320,7 +320,6 @@ header {
   background-color: #fae5d3;
   align-items: center;
   padding: 1.6rem 1.6rem 1.6rem 0;
-  margin-bottom: 9.6rem;
 }
 
 .testimonials {
@@ -381,4 +380,11 @@ header {
 
 .gallery-image:hover {
   transform: scale(1.1);
+}
+
+/* ********************** */
+/* SECTION PRICING */
+/* ********************** */
+.section-pricing {
+  padding: 9.6rem 0;
 }
