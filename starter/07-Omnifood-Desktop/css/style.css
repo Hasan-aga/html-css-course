@@ -403,6 +403,20 @@ header {
   background-color: transparent;
 }
 
+.pricing-plan--complete::after {
+  content: "Most popular";
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+  padding: 0.5rem 1rem;
+  background-color: #fee440;
+  position: absolute;
+  top: 3rem;
+  right: -2rem;
+  transform: rotate(45deg);
+}
+
 .plan-header {
   background-color: transparent;
   text-align: center;
