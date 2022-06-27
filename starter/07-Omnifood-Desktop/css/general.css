@@ -98,6 +98,10 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.margin-right-small {
+  margin-right: 1.6rem !important;
+}
+
 .button:link,
 .button:visited {
   display: inline-block;
