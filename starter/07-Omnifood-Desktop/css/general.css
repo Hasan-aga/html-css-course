@@ -98,6 +98,10 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .margin-right-small {
   margin-right: 1.6rem !important;
 }
