@@ -177,3 +177,23 @@ body {
 strong {
   font-weight: 600;
 }
+
+.list {
+  color: #333;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding-bottom: 4.4rem;
+}
+
+.list ion-icon {
+  color: #333;
+  width: 24px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
