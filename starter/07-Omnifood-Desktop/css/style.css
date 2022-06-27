@@ -401,6 +401,7 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  margin-bottom: 1rem;
 }
 
 .plan-price {
@@ -410,10 +411,13 @@ header {
 
 .plan-price span {
   font-size: 4.4rem;
+  font-weight: 400;
+  font-weight: 500;
   padding-right: 0.5rem;
 }
 
 .plan-text {
+  color: #6f6f6f;
   font-size: 1.8rem;
   line-height: 1.5;
 }
