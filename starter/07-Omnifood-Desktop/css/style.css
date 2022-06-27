@@ -471,3 +471,11 @@ header {
   color: #6f6f6f;
   width: 24px;
 }
+
+/* ********************** */
+/* SECTION TESITMONIALS */
+/* ********************** */
+
+.features {
+  display: grid;
+}
