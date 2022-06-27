@@ -184,7 +184,6 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
-  padding-bottom: 4.4rem;
 }
 
 .list ion-icon {
