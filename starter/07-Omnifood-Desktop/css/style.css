@@ -324,8 +324,9 @@ header {
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 3.8rem;
+  column-gap: 8rem;
   grid-auto-rows: min-content;
-  gap: 3.8rem;
   padding: 6.4rem;
 }
 
