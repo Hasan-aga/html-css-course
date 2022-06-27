@@ -390,9 +390,15 @@ header {
 }
 
 .pricing-plan {
+  width: 75%;
   background-color: #fdf2e9;
   border-radius: 12px;
   padding: 3.8rem 2.4rem;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  background-color: #fae5d3;
 }
 
 .plan-header {
