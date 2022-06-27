@@ -322,4 +322,19 @@ header {
 .testimonial-image {
   width: 6.4rem;
   border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  color: #555;
+}
+
+.testimonial-name {
+  color: #777;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
 }
