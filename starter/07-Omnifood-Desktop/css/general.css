@@ -179,7 +179,6 @@ strong {
 }
 
 .list {
-  color: #333;
   list-style: none;
   display: flex;
   flex-direction: column;
