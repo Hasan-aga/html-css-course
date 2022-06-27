@@ -182,12 +182,12 @@ header {
   z-index: -1;
 }
 
-.step-image-box:hover::after {
+.steps-container:hover > .step-image-box::after {
   width: 90%;
   padding-bottom: 90%;
 }
 
-.step-image-box:hover::before {
+.steps-container:hover > .step-image-box::before {
   width: 90%;
   padding-bottom: 90%;
 }
