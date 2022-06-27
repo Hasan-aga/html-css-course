@@ -315,8 +315,10 @@ header {
 /* SECTION TESITMONIALS */
 /* ********************** */
 .section-testimonials {
+  display: grid;
+  grid-template-columns: 50fr 45fr;
   background-color: #fae5d3;
-  padding: 1.6rem;
+  padding: 1.6rem 1.6rem 1.6rem 0;
 }
 
 .testimonials {
@@ -350,12 +352,16 @@ header {
   font-weight: 600;
   letter-spacing: 1.1px;
 }
-
+.gallery {
+  align-self: end;
+}
 .gallery-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+  align-content: end;
+  width: 100%;
   gap: 1.6rem;
 }
 
