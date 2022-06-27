@@ -314,19 +314,22 @@ header {
 /* ********************** */
 /* SECTION TESITMONIALS */
 /* ********************** */
+.section-testimonials {
+  background-color: #fae5d3;
+  padding: 1.6rem;
+}
 
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-auto-rows: min-content;
+  align-content: center;
   gap: 3.8rem;
 }
 
 .testimonial-heading {
   grid-column: 1/-1;
-}
-
-.section-testimonials {
-  padding: 9.6rem 0;
+  align-self: center;
 }
 
 .testimonial-image {
