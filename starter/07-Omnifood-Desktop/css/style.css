@@ -399,7 +399,8 @@ header {
 
 .pricing-plan--starter {
   justify-self: end;
-  background-color: #faeed3;
+  border: 1px solid #6f6f6f;
+  background-color: transparent;
 }
 
 .plan-header {
