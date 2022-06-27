@@ -388,3 +388,8 @@ header {
 .section-pricing {
   padding: 9.6rem 0;
 }
+
+.plan-header {
+  background-color: transparent;
+  text-align: center;
+}
