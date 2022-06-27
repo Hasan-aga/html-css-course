@@ -355,6 +355,16 @@ header {
   font-weight: 600;
   letter-spacing: 1.1px;
 }
+
+.testimonial-background {
+  grid-column: 1/-1;
+  filter: grayscale(1);
+  opacity: 0.5;
+  margin-top: 10rem;
+  width: 50%;
+  align-self: end;
+  justify-self: center;
+}
 .gallery {
   align-self: end;
 }
