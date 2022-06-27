@@ -368,7 +368,16 @@ header {
   gap: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-image {
   width: 100%;
   display: block;
+  transition: all 1s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
 }
