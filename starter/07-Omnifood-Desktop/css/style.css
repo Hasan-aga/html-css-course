@@ -318,16 +318,18 @@ header {
   display: grid;
   grid-template-columns: 50fr 45fr;
   background-color: #fae5d3;
+  align-items: center;
   padding: 1.6rem 1.6rem 1.6rem 0;
 }
 
 .testimonials {
+  align-self: start;
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 3.8rem;
   column-gap: 8rem;
   grid-auto-rows: min-content;
-  padding: 6.4rem;
+  padding: 6.4rem 3.8rem 6.4rem 3.8rem;
 }
 
 .testimonial-heading {
