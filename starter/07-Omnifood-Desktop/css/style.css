@@ -560,7 +560,8 @@ header {
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
-.cta-form input {
+.cta-form input,
+.cta-form select {
   font-family: inherit;
   font-size: 1.8rem;
   width: 100%;
@@ -575,6 +576,8 @@ header {
   color: #aaa;
 }
 .cta-form select {
+  font-family: inherit;
+  color: #555;
 }
 .cta-form button {
 }
