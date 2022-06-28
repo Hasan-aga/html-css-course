@@ -514,6 +514,7 @@ header {
 /* ********************** */
 .section-cta {
   padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
 }
 
 .cta {
@@ -611,7 +612,7 @@ header {
 /* FOOTER */
 /* ********************** */
 .footer {
-  padding: 9.6rem 0;
+  padding: 4.4rem 4.4rem;
   border-top: solid 1px #ccc;
 }
 
