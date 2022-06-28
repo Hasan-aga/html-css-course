@@ -647,21 +647,15 @@ footer address,
   padding-top: 1rem;
 }
 
-.footer-links li {
-  margin-top: 2rem;
-}
-
-footer address p {
-  font-style: normal;
+.footer-links li,
+.footer-links p {
   margin-top: 2rem;
 }
 
 .footer-social a:link,
 .footer-social a:visited,
 .footer-links a:link,
-.footer-links a:visited,
-footer address a:link,
-footer address a:visited {
+.footer-links a:visited {
   text-decoration: none;
   text-transform: capitalize;
   color: #555;
