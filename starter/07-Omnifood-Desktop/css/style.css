@@ -573,11 +573,22 @@ header {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.09);
 }
 
+.cta-form input:focus {
+  outline-color: #e67e22;
+}
+
 .cta-form input::placeholder {
   color: #aaa;
 }
+
 .cta-form select {
   font-family: inherit;
+  outline-color: #e67e22;
 }
+
+.cta-form select:focus {
+  border-color: #e67e22;
+}
+
 .cta-form button {
 }
