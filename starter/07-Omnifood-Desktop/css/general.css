@@ -113,6 +113,7 @@ body {
   margin-bottom: 3.8rem !important;
 }
 
+.button,
 .button:link,
 .button:visited {
   display: inline-block;
