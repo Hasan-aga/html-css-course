@@ -551,3 +551,16 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input {
+}
+.cta-form select {
+}
+.cta-form button {
+}
