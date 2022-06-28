@@ -550,6 +550,8 @@ header {
 .cta-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 4.4rem;
+  row-gap: 2.4rem;
 }
 
 .cta-form label {
@@ -559,6 +561,9 @@ header {
   margin-bottom: 1.2rem;
 }
 .cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  border: none;
 }
 .cta-form select {
 }
