@@ -612,4 +612,17 @@ header {
 /* ********************** */
 .footer {
   padding: 9.6rem 0;
+  background-color: #fae5d3;
+}
+
+.heading-footer {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #555;
+}
+
+.footer-links,
+footer address {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
