@@ -615,14 +615,38 @@ header {
   background-color: #fae5d3;
 }
 
-.heading-footer {
+.heading-footer,
+footer .logo {
   font-size: 1.6rem;
   font-weight: 700;
   color: #555;
+  margin-bottom: 2.4rem;
 }
 
 .footer-links,
-footer address {
+footer address,
+.copyright {
+  display: inline-block;
   font-size: 1.4rem;
   font-weight: 500;
+  font-style: none;
+  list-style: none;
+}
+
+.footer-links {
+  line-height: 4;
+}
+
+footer address p {
+  font-style: normal;
+  padding: 2rem 0;
+}
+
+.footer-links a:link,
+.footer-links a:visited,
+footer address a:link,
+footer address a:visited {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #555;
 }
