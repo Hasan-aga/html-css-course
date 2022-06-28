@@ -561,6 +561,8 @@ header {
   margin-bottom: 1.2rem;
 }
 .cta-form input {
+  font-family: inherit;
+  font-size: 1.8rem;
   width: 100%;
   padding: 1.2rem;
   border: none;
