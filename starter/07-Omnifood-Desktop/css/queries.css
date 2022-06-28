@@ -22,3 +22,34 @@
     width: 80%;
   }
 }
+
+/* ********************** */
+/* bewlo 1200 (landscape tablet) */
+/* ********************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-secondary {
+    font-size: 3.8rem;
+  }
+
+  .heading-third {
+    font-size: 2.4rem;
+  }
+
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.4rem;
+  }
+
+  .hero {
+    gap: 4.4rem;
+  }
+
+  .main-navigation-list {
+    gap: 3.4rem;
+  }
+}
