@@ -1,0 +1,137 @@
+fe3ad52 testimonials / add illustration
+fbc4314 how to / change hover effect trigger on parent
+1e98a0f plan / change last icon
+bc6457e plans / add final note to prices
+c2c5c3f features / create circular background on icons
+0941e04 features / style the features
+d2abda1 create grid 4 cols
+8086c51 plan / mark 2nd plan strong points
+1b170e8 plan / hide banner edges
+f7714b1 plan / create a banner for best plan
+9a1cf12 add yellow
+ead8a32 pricing / use special class for the second plan
+020fad0 plan / increase fonsize of span
+e25d8fd remove special color from reusable list
+06f7595 plan / remove background of first plan
+18d79b2 plan / style missing options
+078bd1e plan / position buttons on parallel pos
+41ee3e6 plan / change pos and style of 1st plan
+9f52659 plan / use class for first plan
+e7ec249 plan / add background color and corner radius
+e23afe9 change gap of list
+80bdd17 plan / add margin top to button
+597cadd remove padding from reusable list
+52a62ea plan / add margin and use grey with text
+eec1636 plan / style header
+ae16b74 plan / use div instead of header
+1e1ad1c plan / separate header
+fb9131e change icon color
+6cade35 plans / add second plan
+61d815d add pricing section
+b7199da create general list style
+008b936 testimonials / remove margin bottom all margin comes from padding
+5a1ff99 testimonials / add large margin bottom
+3ad22bd gallery / add new image
+8ddd4e6 gallery / create hover effect
+e9d1a8f change color grey
+0327223 testimonial / set smaller side pad
+936cceb testimonials / set row and col gaps
+add50b4 testimonial / make gallery smaller
+70ed6f7 testimonials / pad the testimonial section
+ad1f0b5 testimonials / align center and reduce size of auto rows
+a50a874 gallery / add gap and make 3 col grid
+8aea614 gallery / remove gap
+708ee12 gallery / put images in figure tag
+e3b7485 gallery / create grid and set image size
+6af0dd9 gallery / add images
+6bb731c testimonials / add heading to testimonial part
+d8e5b25 testimonials / apply a grid will smaller gap
+0855ba2 Revert "testimonials / apply grid on testimonials"
+deebb72 testimonials / remove space bw name and dash
+2d588bb testimonials / style text and names
+b10152f testimonials / style images
+3ebabe6 testimonials / apply grid on testimonials
+aa80072 testimonials / create basic testimonials
+22ad309 testimonials / create basic structure
+bbfea17 meals / create hover
+5031339 meals / center the title
+064e076 meals / style bottom link
+b2f4dad meals / add right arrow
+cf5be84 meals / apply margin bottom using general class
+4319ec2 create reusable margin bottom
+ea152d0 move resuable style to general css
+d55ff76 diets / clean unused code
+54462be diets / remove box shadow and margins
+a03f4b9 diets / add all diets
+6dc2ed4 step image / animate background circle
+bfd2582 button / transition all border and background will animate on hover
+725e065 meals / add fake scores
+c70ad8c meal / work on margins and tag size
+3e87068 meals / move text content further right
+c32efd1 meal / wrap text in div and give margins
+490d3ec meal cards/ apply border radius
+d12f7b6 add new border radius
+f6c20a8 tag class / increase letter spacing
+ee1e103 style the stron elemnt
+470f72e style meal attributes
+c8eda8f add second meal
+f059607 style tags
+21c5671 add more icons
+bcc9775 add icon script
+1a6295f create first list of meals
+5c1d15e start working on section meals
+60b1c4b create a grid of 3 columns
+48159af finish featured in section
+8aba9b8 create circles behind step image
+d2b7855 add new color
+8625b4b increase number size
+e4c1557 remove how section background color
+f54499a center grid elements with custom class
+fcf09e2 style the third heading size
+03dad40 split the css files create a file for general reusable css
+3d0773a style the step number
+40392fa turn span into inline-block and apply margin
+dfcb8f1 pad the hero properly
+a53cf1a style headings sizes
+b5d9ce3 style the subheading
+47366f0 create structure of how to section
+b289530 start creating how it works section
+d300832 create reuasble centered container
+cc3d3bd create reusable grid
+ba71587 add call to action button in header
+e03f684 create hover effect for navigation links
+bc89014 create navigation links
+81d8860 pad the hero
+073f451 create header
+e4e15cc add delivered meals section to hero
+d784bd7 add transition on hover
+41be1db create hover on hero buttons
+184c534 style hero buttons
+3fee5ee pad the hero
+b55172a set background color
+fe90a3c change hero description font size
+8f7dfac center hero elements
+61bd9e9 style hero text
+3111577 center hero
+eefd5e3 set hero width
+4f57688 use percent size for image
+40f983e place hero image and text side by side
+24149a3 use down arrow
+2ba0b13 change hero button text
+0b8d42b add learn more in hero
+64dcc0e add button with call to action
+61ba22b increase font size
+35295c6 create hero structure
+d091b30 start building hero
+63b122a add color scheme
+c72fb8f get sizing system
+7c29743 start scaffolding
+6060678 change the folder structure
+c9db826 create a section plan
+468866e plan site
+ae57646 define the project
+235dbfb add some text to basic html page
+9e70376 create simple html page
+10de6bc Added starter script.js
+23f0386 Fixed typo
+0a31060 First commit 🚀
