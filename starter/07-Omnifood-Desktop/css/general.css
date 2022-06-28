@@ -123,6 +123,8 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
   transition: all 500ms;
+  border: none;
+  cursor: pointer;
 }
 
 .button--full:link,
