@@ -525,24 +525,31 @@
 
                 <form class="cta-form"
                       action="#">
-                    <label for="full-name">Full Name</label>
-                    <input id="full-name"
-                           type="text"
-                           placeholder="John Smith"
-                           required>
-                    <label for="email">Email</label>
-                    <input id="email"
-                           required
-                           type="email"
-                           placeholder="ex@example.com">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input id="full-name"
+                               type="text"
+                               placeholder="John Smith"
+                               required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email"
+                               required
+                               type="email"
+                               placeholder="ex@example.com">
+                    </div>
 
-                    <label for="where">Where did you hear about us?</label>
-                    <select id="where">
-                        <option value="">Please pick one</option>
-                        <option value="friends">Friends and family</option>
-                        <option value="youtube">Youtube</option>
-                        <option value="Instagram">Instagram</option>
-                    </select>
+                    <div>
+                        <label for="where">Where did you hear about us?</label>
+                        <select id="where">
+                            <option value="">Please pick one</option>
+                            <option value="friends">Friends and family</option>
+                            <option value="youtube">Youtube</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
                     <button class="button">Sign up</button>
                 </form>
             </div>
