@@ -616,6 +616,15 @@ header {
   border-top: solid 1px #ccc;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.8fr;
+}
+
+.logo-box {
+  grid-row: 1 / -4;
+}
+
 .footer img {
   display: inline-block;
 }
@@ -639,6 +648,7 @@ footer address,
 }
 
 .copyright {
+  display: block;
   font-size: 1.4rem;
   line-height: 1.5;
   margin-top: 1rem;
