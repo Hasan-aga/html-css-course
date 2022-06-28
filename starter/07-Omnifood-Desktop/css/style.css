@@ -613,10 +613,3 @@ header {
 .footer {
   padding: 9.6rem 0;
 }
-
-.logo-box img {
-  width: 50%;
-  padding-left: 1rem;
-  opacity: 0.6;
-  filter: grayscale(1);
-}
