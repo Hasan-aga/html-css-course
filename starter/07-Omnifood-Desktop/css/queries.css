@@ -47,9 +47,125 @@
 
   .hero {
     gap: 4.4rem;
+    padding: 0 8rem;
   }
 
   .main-navigation-list {
     gap: 3.4rem;
+  }
+}
+
+/* ********************** */
+/* below 946 (tablet) */
+/* ********************** */
+
+@media (max-width: 59em) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-image-box {
+    justify-self: center;
+    width: 60%;
+  }
+
+  .featured-logos img {
+    height: 2.4rem;
+  }
+
+  .section-how {
+    padding: 6.4rem 2rem;
+  }
+
+  .step-number {
+    font-size: 6.4rem;
+  }
+
+  .steps-container {
+    width: 90%;
+  }
+
+  .section-meals {
+    padding: 6.4rem 2rem;
+  }
+
+  .meal-text {
+    padding: 2.4rem;
+    padding-top: 3.4rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    align-items: start;
+  }
+
+  .testimonial {
+    padding: 0;
+  }
+
+  .testimonial-background {
+    display: none;
+  }
+
+  .gallery-images {
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .section-pricing {
+    padding: 6.4rem 0;
+  }
+
+  .section-pricing .subheading,
+  .section-pricing .heading-secondary {
+    display: block;
+    text-align: center;
+  }
+
+  .pricing-plan {
+    width: 90%;
+  }
+
+  .plan-price {
+    font-size: 6rem;
+  }
+
+  .feature {
+    padding: 1rem 1rem;
+  }
+
+  .feature ion-icon {
+    font-size: 2.4rem;
+  }
+
+  .section-cta {
+    padding: 6.4rem 2.4rem;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form button {
+    padding: 1.8rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 0.8fr 1fr 0.8fr;
+  }
+
+  .logo-box {
+    grid-row: 1 / 2;
   }
 }
