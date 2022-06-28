@@ -515,3 +515,23 @@ header {
 .section-pricing {
   padding: 9.6rem 0;
 }
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: linear-gradient(to right bottom, #fee440, #e67e22);
+  border-radius: 12px;
+  height: 60rem;
+  overflow: hidden;
+}
+
+.cta-image-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(254, 229, 64, 0.24),
+      rgba(230, 125, 34, 0.267)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
+  /* opacity: 0.7; */
+}
