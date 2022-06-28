@@ -27,6 +27,7 @@ default: 1
     greys: #555
             #333
             #6f6f6f
+            #aaa
 
 ----- 03 shadows
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.09);

@@ -570,6 +570,10 @@ header {
   background-color: #fdf2e9;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.09);
 }
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
 .cta-form select {
 }
 .cta-form button {
