@@ -521,7 +521,6 @@ header {
   grid-template-columns: 2fr 1fr;
   background-image: linear-gradient(#fee440 20%, #e67e22);
   border-radius: 12px;
-  height: 50rem;
   overflow: hidden;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.171);
 }
@@ -591,4 +590,8 @@ header {
 }
 
 .cta-form button {
+  background-color: #333;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem 2rem;
 }
