@@ -615,12 +615,12 @@ header {
   background-color: #fae5d3;
 }
 
-.logo img {
+.footer img {
   display: inline-block;
 }
 
 .heading-footer,
-footer .logo {
+.footer img {
   font-size: 1.6rem;
   font-weight: 700;
   color: #555;
@@ -637,8 +637,14 @@ footer address,
   list-style: none;
 }
 
+.copyright {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .footer-social li {
   list-style: none;
+  padding-top: 1rem;
 }
 
 .footer-links li {
@@ -647,7 +653,7 @@ footer address,
 
 footer address p {
   font-style: normal;
-  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
 .footer-social a:link,
