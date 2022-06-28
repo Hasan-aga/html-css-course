@@ -527,10 +527,15 @@ header {
 
 .cta-text-box {
   padding: 4.8rem 6.4rem;
-  color: #333;
+  color: #45260a;
+}
+
+.cta-text-box .heading-secondary {
+  color: inherit;
 }
 
 .cta-text {
+  color: inherit;
   font-size: 1.8rem;
   line-height: 1.5;
   margin-bottom: 4.8rem;
@@ -590,7 +595,7 @@ header {
 }
 
 .cta-form button {
-  background-color: #333;
+  background-color: #45260a;
   color: #fdf2e9;
   align-self: end;
   padding: 1.2rem 2rem;
