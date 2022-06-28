@@ -662,3 +662,7 @@ footer address,
   text-transform: capitalize;
   color: #555;
 }
+
+.footer address {
+  font-style: normal;
+}
