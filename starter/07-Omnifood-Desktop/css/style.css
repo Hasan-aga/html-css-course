@@ -638,6 +638,8 @@ footer address,
 }
 
 .copyright {
+  font-size: 1.4rem;
+  line-height: 1.5;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
