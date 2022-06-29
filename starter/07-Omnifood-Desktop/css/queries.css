@@ -75,9 +75,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 500ms;
 
     /* hide navigation */
+    /* 1. hide it visually */
     opacity: 0;
+
+    /* hide it from mouse and keyboard */
+    pointer-events: none;
+
+    /* hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .navigation-open .main-navigation {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .navigation-open .mobile-navigation-button ion-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .navigation-open .mobile-navigation-button ion-icon[name="menu-outline"] {
+    display: none;
   }
 
   .main-navigation-list {
