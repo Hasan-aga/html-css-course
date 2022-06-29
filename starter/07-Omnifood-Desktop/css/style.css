@@ -48,6 +48,28 @@ header {
 .main-navigation-link.main-navigation-link-cta:active {
   background-color: #cf711f;
 }
+
+/* ********************** */
+/* MOBILE  */
+/* ********************** */
+
+.mobile-navigation-button {
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mobile-navigation-button ion-icon {
+  color: #333;
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.mobile-navigation-button ion-icon[name="close-outline"] {
+  display: none;
+}
+
 /* ********************** */
 /* HERO */
 /* ********************** */
