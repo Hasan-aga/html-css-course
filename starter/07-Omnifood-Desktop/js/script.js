@@ -2,11 +2,11 @@ console.log("hello world");
 
 const h1 = document.querySelector(".heading-primary");
 
-h1.addEventListener("click", () => {
-  h1.textContent = "hello world";
-  h1.style.backgroundColor = "red";
-  console.log(h1);
-});
+// h1.addEventListener("click", () => {
+//   h1.textContent = "hello world";
+//   h1.style.backgroundColor = "red";
+//   console.log(h1);
+// });
 
 const mainHeader = document.querySelector("body header");
 const mobileNav = document.querySelector(".mobile-navigation-button");
