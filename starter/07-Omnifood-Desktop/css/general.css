@@ -63,6 +63,11 @@ body {
   color: #555;
 }
 
+::selection {
+  background: #e67e22;
+  color: #f7f7f7;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-third {
