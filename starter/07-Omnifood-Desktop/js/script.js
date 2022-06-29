@@ -8,6 +8,7 @@ const h1 = document.querySelector(".heading-primary");
 //   console.log(h1);
 // });
 
+// make mobile navigation work
 const mainHeader = document.querySelector("body header");
 const mobileNav = document.querySelector(".mobile-navigation-button");
 
@@ -15,6 +16,7 @@ mobileNav.addEventListener("click", () => {
   mainHeader.classList.toggle("navigation-open");
 });
 
+// update year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
